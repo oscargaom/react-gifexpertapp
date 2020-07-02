@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 
-import { GitExpertApp } from './GitExpertApp';
+import { GifExpertApp } from './GifExpertApp';
 
 ReactDOM.render(
   
-    <GitExpertApp/>,
+    <GifExpertApp/>,
 
   document.getElementById('root')
 );

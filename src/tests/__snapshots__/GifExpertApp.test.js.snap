@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas unitarias del componente <GifExpertApp /> Validar que el componete exista  1`] = `
+<div>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Goku"
+      key="Goku"
+    />
+    <GifGrid
+      category="Homero"
+      key="Homero"
+    />
+  </ol>
+</div>
+`;
+
+exports[`Pruebas unitarias del componente <GifExpertApp /> Validar que el número de categorías corresponde al número de componentes 1`] = `
+<div>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Goku"
+      key="Goku"
+    />
+    <GifGrid
+      category="Homero"
+      key="Homero"
+    />
+  </ol>
+</div>
+`;

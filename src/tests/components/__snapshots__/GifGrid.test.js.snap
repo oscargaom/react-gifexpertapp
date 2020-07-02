@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas unitarias del componente <GifGrid /> Debe mostrar imagenes al hacer el llamado al api 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadein"
+  >
+    Homero
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Homero bailarin"
+      url="https://sitio.com/imagen.jpg"
+    />
+    <GifGridItem
+      id="123"
+      key="123"
+      title="Homero bailarin"
+      url="https://sitio.com/imagen.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas unitarias del componente <GifGrid /> Validar que el componente se cargue correctamente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadein"
+  >
+    Homero
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
